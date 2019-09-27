@@ -1,0 +1,6 @@
+framework module Pods_KoganCodingTest {
+  umbrella header "Pods-KoganCodingTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

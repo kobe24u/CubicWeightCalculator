@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wFB-sy-oAn">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zEQ-B2-cfv">
+            <objects>
+                <viewController id="wFB-sy-oAn" customClass="ViewController" customModule="AirConAvgCubicWeightCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sZj-PH-P4q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CFf-rb-s4L" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
+                                <rect key="frame" x="182.5" y="441.5" width="49" height="23"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="morphingProgress">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="morphingDuration">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="morphingEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zh-qi-4oe" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
+                                <rect key="frame" x="0.0" y="484.5" width="414" height="36"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="morphingDuration">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="morphingProgress">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="morphingEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJi-b1-Jv7" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
+                                <rect key="frame" x="0.0" y="848.5" width="414" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="morphingDuration">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="morphingProgress">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="morphingEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparentlogo" translatesAutoresizingMaskIntoConstraints="NO" id="OOA-9D-2l5">
+                                <rect key="frame" x="107" y="121.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ODo-Vu-U1a"/>
+                                    <constraint firstAttribute="width" constant="200" id="nWU-de-YyC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dDM-FV-Kz9" firstAttribute="trailing" secondItem="HJi-b1-Jv7" secondAttribute="trailing" id="GH7-e2-1D1"/>
+                            <constraint firstItem="CFf-rb-s4L" firstAttribute="centerX" secondItem="dDM-FV-Kz9" secondAttribute="centerX" id="Lcc-zh-HYw"/>
+                            <constraint firstItem="OOA-9D-2l5" firstAttribute="centerX" secondItem="dDM-FV-Kz9" secondAttribute="centerX" id="cD5-07-09y"/>
+                            <constraint firstItem="HJi-b1-Jv7" firstAttribute="leading" secondItem="dDM-FV-Kz9" secondAttribute="leading" id="fPq-oq-eRy"/>
+                            <constraint firstItem="0zh-qi-4oe" firstAttribute="top" secondItem="CFf-rb-s4L" secondAttribute="bottom" constant="20" id="hSz-EZ-8T6"/>
+                            <constraint firstAttribute="bottom" secondItem="HJi-b1-Jv7" secondAttribute="bottom" constant="30" id="m1I-HF-Pf0"/>
+                            <constraint firstItem="CFf-rb-s4L" firstAttribute="top" secondItem="OOA-9D-2l5" secondAttribute="bottom" constant="120" id="ndW-cO-J3L"/>
+                            <constraint firstItem="CFf-rb-s4L" firstAttribute="centerY" secondItem="dDM-FV-Kz9" secondAttribute="centerY" id="vqp-sg-gKs"/>
+                            <constraint firstItem="dDM-FV-Kz9" firstAttribute="trailing" secondItem="0zh-qi-4oe" secondAttribute="trailing" id="ybq-uj-Zye"/>
+                            <constraint firstItem="0zh-qi-4oe" firstAttribute="leading" secondItem="dDM-FV-Kz9" secondAttribute="leading" id="yjw-o8-51r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dDM-FV-Kz9"/>
+                    </view>
+                    <connections>
+                        <outlet property="footerlabel" destination="HJi-b1-Jv7" id="kpg-P9-Zds"/>
+                        <outlet property="resultLabel" destination="CFf-rb-s4L" id="Xcj-Z4-PwM"/>
+                        <outlet property="tyLabel" destination="0zh-qi-4oe" id="F0K-FI-6ce"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgj-jg-Y5N" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="transparentlogo" width="4178" height="3681"/>
+    </resources>
+</document>
