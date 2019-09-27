@@ -3,6 +3,10 @@ This is a coding test project for Kogan.com, not for any other business purpose
 
 ## Language used: Swift
 
+Originally designed App Logo:
+
+![App Logo](appLogo.png)
+
 Preview:
 
 ![](result.gif)
@@ -21,7 +25,7 @@ Wait for it to finish before proceeding.
 4, Type cd into the terminal, followed by a space.
 5, Drag and drop the project directory into the terminal window. It should now say something like this:
 
-``` cd /Users/someone/Downloads/AirConAvgCubicWeightCalculator ```
+``` cd /Users/someone/Downloads/KoganCodingTest.xcworkspace ```
 
 6, Press return.
 Now type pod install. Wait for that to finish. It could take a while.
@@ -29,7 +33,7 @@ Done!
 
 7, Now type 
 
-``` open AirConAvgCubicWeightCalculator.xcworkspace ```
+``` open KoganCodingTest.xcworkspace ```
 
 this should help open the project using Xcode
 
