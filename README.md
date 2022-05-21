@@ -1,6 +1,3 @@
-# CodingTestForKogan
-This is a coding test project for Kogan.com, not for any other business purpose
-
 ## Language used: Swift
 
 Originally designed App Logo:
